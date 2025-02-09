@@ -10,4 +10,9 @@ Si te has inscrito en un curso(solo se puede hacer una vez por cada curso), se g
 Como admin:
 Puedes activar o desactivar los cursos, añadir o eliminar cursos y hace la baremacion de los solicitantes por curso cerrado y segun los puntos que tienen.
 
+Tendras que añadir al proyecto:
+-la capeta FPDF186 que te puedes descargar de Git
+-una carpeta donde se van a guardar los pdf-s generados
+-la carpeta que contiene PhpMailer que tambien enontraras en Git
+Fijate bien en las rutas para que el proyecto pueda funcionar bien!!!
 

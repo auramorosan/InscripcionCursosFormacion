@@ -58,8 +58,4 @@ Este es un sistema en PHP con acceso a una base de datos SQL que permite a profe
 - Revisa las rutas de las librerías externas antes de ejecutar el proyecto.
 
 
-**Autor:** [Tu Nombre]  
-**Repositorio:** [Enlace al Repositorio]
-
-
 

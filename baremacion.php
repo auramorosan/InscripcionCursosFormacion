@@ -102,11 +102,10 @@ require 'conexion.php';
             $solicitantes = [];
             //fetch_assoc() obtiene una fila de la base de datos en forma de array asociativo.
             //$row guarda los datos de un solicitante que devuelve fetch_assoc() en cada iteracion
-            //devuelve alg como $row = ['dni' => '12345678A','puntos' => '5','nombre' => 'Juan','apellidos' => 'Pérez'];
             while ($row = $resultSolicitantes->fetch_assoc()) {
-                //interval() elimina decimales y convierte cadenas numéricas a enteros
+                //devuelve algo como $row = ['dni' => '12345678A','puntos' => '5','nombre' => 'Juan','apellidos' => 'Pérez'];
                 $puntos = intval($row['puntos']);
-
+                //interval() elimina decimales y convierte cadenas numéricas a enteros
                 if ($row['coordinadortic']) $puntos += 4;
                 if ($row['grupotic']) $puntos += 3;
                 if ($row['pbilin']) $puntos += 3;
